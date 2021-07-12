@@ -1,7 +1,6 @@
-{{page-title "BearApp"}}
-
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
-
-{{outlet}}
+<ul>
+      {{#each bears as |bear|}}
+    <li>{{bear}}</li>
+    {{/each}}
+  
+</ul>
